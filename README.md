@@ -39,7 +39,6 @@ For evaluating on COCO, downlowd checkpoint and run the following command lines:
 ## COCO Keypoint Detection Results
 | Name | Param | GFLOPs | AP | download |
 | ---- | ----- | ------ | -- | -------- |
-|
 |[SDPose-T](configs/body/2d_kpt_sview_rgb_img/sdpose/coco/sdpose_t_stemnet_coco_256x192.py)| 4.4 | 1.8 | 69.7 | [Download](https://1drv.ms/u/c/f50d4bfde1885ac3/EWA1nvaSsplDqxDJaLgm2QcBFXA_5O1GWNkfDvMeL2ZlLQ?e=36bqDS) |
 |[SDPose-S-V1](configs/body/2d_kpt_sview_rgb_img/sdpose/coco/sdpose_s_v1_stemnet_coco_256x192.py)| 6.6 | 2.4 | 72.3 | [Download](https://1drv.ms/u/c/f50d4bfde1885ac3/Ea4EbwN0OMpBgneBaqrNDzABtYEWlWrRjt02ng27LpCtAg?e=XHoiLw) |
 |[SDPose-S-V2](configs/body/2d_kpt_sview_rgb_img/sdpose/coco/sdpose_s_v2_stemnet_coco_256x192.py)| 6.2 | 4.7 | 73.5 | [Download](https://1drv.ms/u/c/f50d4bfde1885ac3/Ea4EbwN0OMpBgneBaqrNDzABtYEWlWrRjt02ng27LpCtAg?e=34AB06) |
