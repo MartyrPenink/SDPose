@@ -3,6 +3,8 @@ Official Implementation for: SDPose: Tokenized Pose Estimation via Circulation-G
 
 > [**SDPose: Tokenized Pose Estimation via Circulation-Guide Self-Distillation**],            
 > Sichen Chen\*, Yingyi Zhang\*, Siming Huang\*, Ran Yi, Ke Fan, Ruixin Zhang, Peixia Chen, Jun Wang, Shouhong Ding, Lizhuang Ma.  
+> In: Conference on Computer Vision and Pattern Recognition~(CVPR), 2024  
+> *arXiv preprint ([arXiv 2404.03518](https://arxiv.org/abs/2404.03518))*  
 > (\* equal contribution)
 
 # Introdoction
@@ -43,3 +45,14 @@ For evaluating on COCO, downlowd checkpoint and run the following command lines:
 |[SDPose-S-V1](configs/body/2d_kpt_sview_rgb_img/sdpose/coco/sdpose_s_v1_stemnet_coco_256x192.py)| 6.6 | 2.4 | 72.3 | [Download](https://1drv.ms/u/c/f50d4bfde1885ac3/Ea4EbwN0OMpBgneBaqrNDzABtYEWlWrRjt02ng27LpCtAg?e=XHoiLw) |
 |[SDPose-S-V2](configs/body/2d_kpt_sview_rgb_img/sdpose/coco/sdpose_s_v2_stemnet_coco_256x192.py)| 6.2 | 4.7 | 73.5 | [Download](https://1drv.ms/u/c/f50d4bfde1885ac3/Ea4EbwN0OMpBgneBaqrNDzABtYEWlWrRjt02ng27LpCtAg?e=34AB06) |
 |[SDPose-B](configs/body/2d_kpt_sview_rgb_img/sdpose/coco/sdpose_b_hr32_coco_256x192.py)| 13.2 | 5.2 | 73.7 | [Download](https://1drv.ms/u/c/f50d4bfde1885ac3/EUPQTbjUN9BKn9RjkRekphcBHj1hJ8jLVUYLLQOxuGyvww?e=Pkz8Pc) |
+
+# Citations
+Please consider citing our papers in your publications if the project helps your research. BibTeX reference is as follows.
+```BibTeX
+@article{chen2024sdpose,
+  title={SDPose: Tokenized Pose Estimation via Circulation-Guide Self-Distillation},
+  author={Chen, Sichen and Zhang, Yingyi and Huang, Siming and Yi, Ran and Fan, Ke and Zhang, Ruixin and Chen, Peixian and Wang, Jun and Ding, Shouhong and Ma, Lizhuang},
+  journal={arXiv preprint arXiv:2404.03518},
+  year={2024}
+}
+```
